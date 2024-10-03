@@ -1,5 +1,5 @@
+import Navbar from '@/components/Navbar';
 import './assets/styles/globals.css';
-
 
 export const metadata = {
     title: 'Property Pulse',
@@ -9,6 +9,7 @@ export const metadata = {
 const Mainlayout = ({children}) => {
     return (  <html>
         <body>
+            <Navbar />
             <main>
                 {children}
             </main>
